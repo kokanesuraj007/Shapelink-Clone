@@ -1,22 +1,14 @@
-import { Stack, Image, Text, Container } from '@chakra-ui/react'
 import React from 'react'
-import LandingPage from './LandingPage'
+import LandingPage from '../Components/LandingPage'
+import Navbar from '../Components/Navbar'
 
 const Home = () => {
-    return (
-        <Container>
-        <Stack direction='row'>
-            <Image
-            //     src="https://www.shapelink.com/images/startpage.jpg"
-            //     alt="Segun Adebayo"
-            //     size="50px"
-            //     width="100%"
-            //  zIndex="1"
-            />
-        </Stack> 
-        </Container>
-
-    )
+  return (
+    <>
+    <Navbar/>
+    <LandingPage/>
+    </>
+  )
 }
 
 export default Home
