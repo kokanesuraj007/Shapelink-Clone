@@ -1,0 +1,20 @@
+.ffimg{
+    background:no-repeat center center;
+    width: 100%;
+    padding: 0px 0px 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    
+}
+.txt{
+    width: 40%;
+    padding-left: 100px;
+    position: relative;
+    bottom: 800px;
+}
+.startheading{
+    color: white;
+   font-size: 2rem;
+   transform: scale(1,1.5);
+}

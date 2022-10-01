@@ -8,8 +8,8 @@
 }
 
 :root {
-  --mainColor: rgba(8, 8, 8, 0.5);
-  --mainColorLight: #c0bbbb;
+  --mainColor: rgba(112, 111, 114);
+  --mainColorLight: #131414;
   --secondaryColor: #db2b39;
   --textColor: #eee;
 }
@@ -22,7 +22,6 @@ header {
   padding: 0 2rem;
   background-color: var(--mainColor);
   color: var(--textColor);
-
 }
 header img {
   height: 40px;
