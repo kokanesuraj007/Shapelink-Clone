@@ -1,0 +1,19 @@
+.sigup_main{
+    width: 30%;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+}
+.sigup_main>button{
+    margin-top: 50px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.sigup_main>button:hover{
+    color: blueviolet;
+    background-color: azure;
+}

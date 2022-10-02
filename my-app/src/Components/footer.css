@@ -1,0 +1,37 @@
+.footer{
+    height: 100%;
+    width: auto;
+    background-color: rgb(4, 4, 78);
+}
+
+.parent-footer{
+    background-color: rgb(4, 4, 78);
+    display: flex;
+    
+}
+.foimggg{
+    width: 40%;
+    position: relative;
+    left: 200px;
+    padding-top: 50px;
+}
+.copytext{
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+
+
+
+.Logoflex{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    position: relative;
+    left: 400px;
+    padding-top:80px ;
+}
+.foootlogo{
+    width: 50px;
+}
