@@ -1,42 +1,26 @@
-import React from 'react'
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"
-import "../Styles/main.css";
-const Navbar = () => {
-  const navRef = useRef();
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  };
+import './Navbar.css'
+import { Link, useNavigate } from 'react-router-dom';
+function Navbar(){
 
-
-  return (
- 
-    <header>
-    <div>
-      <img src="https://kcdn.twiikapp.com/images/logo.png" alt="logo" />
+  const navigate=useNavigate()
+return(
+    <div className="nav_main" >
+    <Link to="/">
+      <img src="https://kcdn.twiikapp.com/images/logo.png" alt="logo" className='logoimg'/>
+      </Link>
+        <div className='nav_icon' >
+      <a href='https://www.shapelink.com/en/start/gettheapp'>  <p className='lk'>Get the app </p></a>
+      <a href='https://www.shapelink.com/en/start/contact'>  <p className='lk'>Contact</p></a>
+      
+       
+      <p onClick={()=>navigate("/login")}  className='lk'>Login</p>
+      
+      <p onClick={()=>navigate("/signup")} className='lk' id='lk1'>Create account </p>  
+        </div>
     </div>
-
-    <nav ref={navRef}>
-      <a href="/#">Get the app</a>
-      <a href="/#">Contact</a>
-      <a href="/#">Login</a>
-      <a href="/#">Create account</a>
-      <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-        <FaTimes />
-      </button>
-    </nav>
-    <button className="nav-btn" onClick={showNavbar}>
-      <FaBars />
-    </button>
-  </header>
-
-
-
-
-
-    
-  )
+ 
+)
 }
 
-export default Navbar
+export default Navbar;

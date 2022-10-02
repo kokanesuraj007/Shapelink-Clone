@@ -1,14 +1,16 @@
-import React from 'react'
-import LandingPage from '../Components/LandingPage'
-import Navbar from '../Components/Navbar'
+// import React from 'react'
+// import Footer from '../Components/Footer'
+// import LandingPage from '../Components/LandingPage'
+// import Navbar from '../Components/Navbar'
 
-const Home = () => {
-  return (
-    <>
-    <Navbar/>
-    <LandingPage/>
-    </>
-  )
-}
+// function Home  () {
+//   return  <div>
+   
+//     <Navbar/>
+//     <LandingPage/>
+    
+//     </div>
+  
+// }
 
-export default Home
+// export default Home;
